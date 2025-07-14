@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { NotFound, EventsPage, EventPage } from './pages';
+import { NotFound, EventsPage } from './pages';
 import Layout from './layouts/Layout';
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<EventsPage />} />
           <Route path="/events" element={<EventsPage />} />
-          <Route path="/events/:id" element={<EventPage />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
