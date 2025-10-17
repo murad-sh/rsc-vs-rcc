@@ -24,6 +24,11 @@ It includes two functionally identical CRUD-based event management apps:
 
 ---
 
+## App Preview
+
+![App Preview](assets/img.png)
+![App Preview](assets/img2.png)
+
 ## More Information
 
 All methodology, performance results, and conclusions are available in the included PDF: **Report.pdf**
